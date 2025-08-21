@@ -2,20 +2,20 @@
 
 #frame1 {
   width: 1700px;      
-  height: 1200px;      
+  height: 1550px;      
   object-fit: cover; 
   display: block;            /* biar bisa pakai margin auto */
-  margin: -20px auto 0 auto; /* auto center + geser naik */
+  margin: -200px auto 0 auto; /* auto center + geser naik */
   image-rendering: pixelated;
   image-rendering: crisp-edges;
-  transform: rotate(180deg);
+  
 }#frame1tulisan{
      position: absolute;
-  top: 75%;       /* tengah secara vertikal */
+  top: 50%;       /* tengah secara vertikal */
   left: 50%;      /* tengah secara horizontal */
   transform: translate(-50%, -50%);
   color: rgb(231, 160, 255);   /* warna teks */
-  font-size: 35px;
+  font-size: 70px;
   font-family: "Pixelify Sans", sans-serif;
   text-shadow: 2px 2px 4px black; /* biar tetap terbaca */
   text-align: center;
